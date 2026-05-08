@@ -2,7 +2,7 @@ PImage mapImage;
 
 void setup() {
   size(512, 512, P3D); // P3D allows us to see depth if needed
-  mapImage = loadImage("your_image.png"); // Make sure image is 256x256
+  mapImage = loadImage("map.png"); // Make sure image is 256x256
   mapImage.resize(256, 256); // Force size just in case
   noLoop();
 }
